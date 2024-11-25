@@ -55,5 +55,5 @@ function run(): void {
 }
 
 
-export const app: express.Application = serveapp()
-// run()
+// export const app: express.Application = serveapp()
+run()

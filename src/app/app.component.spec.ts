@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'Reciwallet' title`, () => {
+  it(`should have the 'reciwallet' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Reciwallet');
+    expect(app.title).toEqual('reciwallet');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Reciwallet');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, reciwallet');
   });
 });

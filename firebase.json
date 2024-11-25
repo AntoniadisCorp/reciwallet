@@ -22,7 +22,7 @@
   ],
   "hosting": {
     "site": "reciwallet",
-    "public": "dist/reciwallet/browser",
+    "public": "public",
     "rewrites": [
       {
         "source": "**",

@@ -1,6 +1,6 @@
-# Reciwallet
+# reciwallet
 
-**Reciwallet** is a modern solution for digitizing and managing paper receipts. Using advanced OCR and cloud storage, Reciwallet enables businesses and individuals to securely store, analyze, and access receipts anytime, anywhere.
+**reciwallet** is a modern solution for digitizing and managing paper receipts. Using advanced OCR and cloud storage, reciwallet enables businesses and individuals to securely store, analyze, and access receipts anytime, anywhere.
 
 ---
 
@@ -42,8 +42,8 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/Reciwallet.git
-   cd Reciwallet
+   git clone https://github.com/yourusername/reciwallet.git
+   cd reciwallet
    ```
 
 2. **Install Dependencies**

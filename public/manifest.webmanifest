@@ -1,6 +1,6 @@
 {
-  "name": "Reciwallet",
-  "short_name": "Reciwallet",
+  "name": "reciwallet",
+  "short_name": "reciwallet",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

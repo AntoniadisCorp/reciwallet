@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "ES2022",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "lib",
