@@ -93,10 +93,8 @@ module.exports = withMT({
     },
     screens: {
       // X-Small devices (portrait phones, less than 480px)
-      'xs': { 'min': '480px', 'max': '575px' },
-
       // => @media (min-width: 480px) { ... }
-
+      'xs': '480px',
       // Small devices (landscape phones, 576px and up)
       'sm': '576px',
       // => @media (min-width: 576px) { ... }
