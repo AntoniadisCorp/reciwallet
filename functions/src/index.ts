@@ -24,8 +24,8 @@ import { join } from "node:path"
 const s = join(process.cwd(), "dist/reciwallet/server/server.mjs")
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const universal = async () => {
-    const { app } = await import(s)
-    return app
+  const {app} = await import(s)
+  return app
 }
 
 // const __filename = fileURLToPath(import.meta.url)

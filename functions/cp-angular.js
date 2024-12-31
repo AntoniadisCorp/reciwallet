@@ -1,10 +1,7 @@
 /* eslint-disable space-before-function-paren */
-/* eslint-disable require-jsdoc */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable linebreak-style */
 /* eslint-disable indent */
-/* eslint-disable semi */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 const fs = require("fs-extra")
 
 const start = async function () {

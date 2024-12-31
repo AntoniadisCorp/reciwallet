@@ -6,6 +6,7 @@
       id="email"
       type="email"
       placeholder="example@example.com"
+      [formControl]="email"
     />
   </div>
   <div class="mb-4">
@@ -15,12 +16,14 @@
       id="password"
       type="password"
       placeholder="**********"
+      [formControl]="password"
     />
   </div>
   <div class="flex items-center justify-between">
     <button
       class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
       type="submit"
+      (click)="loginWithGoogle()"
     >
       Login
     </button>
