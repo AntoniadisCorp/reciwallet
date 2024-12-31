@@ -20,7 +20,7 @@ function serveapp(): express.Application {
   // Example Express Rest API endpoints
   // server.get('/api/**', (req, res) => { });
   // Serve static files from /browser
-  server.get('**', express.static(browserDistFolder, {
+  server.get('*.*', express.static(browserDistFolder, {
     maxAge: '1y',
     index: 'index.html',
   }));
@@ -46,14 +46,15 @@ function serveapp(): express.Application {
 
 function run(): void {
   const port = process.env['PORT'] || 4000;
+  const host = process.env['HOST'] || '127.0.0.1'
 
   // Start up the Node server
   const server = serveapp();
   server.listen(port, () => {
-    console.log(`Node Express server listening on http://localhost:${port}`);
+    console.log(`Node Express server listening on http://${host}:${port}`);
+    return host
   });
 }
-
 
 // export const app: express.Application = serveapp()
 run()
